@@ -1,0 +1,32 @@
+.full_card{
+    background-color:#24305E;
+    height:400px;
+    display:flex;
+    padding:40px 40px 40px 0;
+    position: relative;
+    z-index: 10;
+}
+.full_card_back{
+    flex:0 0 80px;
+    background-color:#24305E;
+    writing-mode:vertical-lr;
+    color:#F8E9E1;
+    font-size:40px;
+    font-weight:100;
+    text-orientation: upright;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+@media only screen and (max-width:450px){
+    .full_card_back{
+        flex-basis: 60px;
+    }
+}
+.full_card_container{
+    flex:1;
+    background-color: #F8E9E1;
+}
+

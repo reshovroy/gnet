@@ -1,0 +1,114 @@
+.member_card{
+    position: relative;
+    height:100%;
+    width:200px;
+    background-color:white;
+    display: inline-block;
+    margin-right: 60px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow:0px 4px 15px rgba(0,0,0,0.2);
+}
+@media only screen and (max-width:450px){
+    .member_card{
+        margin-right: 40px;
+    }   
+}
+.card_container{
+    
+    height:100%;
+}
+.profile_back{
+    position: relative;
+   /*#FFEE58*/
+    height:20%;
+    z-index: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+.profile_back--frontend{
+    background-color:#29B6F6;
+}
+.profile_back--graphics{
+    background-color: #FDD835;
+}
+.profile_back--backend{
+    background-color:#E91E63;
+}
+.profile_dev_category{
+    font-size:20px;
+    color:white;
+    font-weight: 100;
+    top:-3px;
+    position: relative;
+}
+.profile_img_box{
+    position: relative;;
+    left:50%;
+    transform:translateX(-50%);
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-color: white;
+    border:4px solid white;
+    margin-top:20px;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+.profile_img{
+    display: block;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.profile_info_box{
+    height:80%;
+    position: relative;
+    z-index: 10;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:0 8px 30px rgba(0,0,0,0.2);
+    
+}
+.profile_info{
+    position: relative;
+    /*top:85px;*/
+    
+}
+.profile_name{
+    text-align: center;
+    color:#374785a2;
+    font-size:22px;
+    font-weight: 300;
+    margin-bottom:5px;
+}
+/*.profile_dev_category{
+    font-size:15px;
+    margin-bottom:20px;
+    width:max-content;
+    position: relative;
+    left:50%;
+    padding:3px 10px;
+    transform: translateX(-50%);
+    top:3px;
+    border:0;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color:#374785;
+    color:grey;
+}*/
+.profile_email{
+    text-align:center;
+    font-size:12px;
+    color:rgba(71, 71, 71,0.7);
+    border:0;
+    /*border-style: solid;
+    border-bottom-width: 1px;
+    border-color:#37478598;
+    padding-bottom:5px;*/
+}
+

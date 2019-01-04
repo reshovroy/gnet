@@ -1,0 +1,43 @@
+.footer{
+    background-color: rgb(20, 25, 46);
+    flex:1 0 120px;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.footer_box{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.footer_parent_link{
+    margin-bottom:15px;
+}
+.gawds_link:link,.gawds_link:visited{
+    font-size:20px;
+    color:rgba(63, 209, 194, 0.5);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    transition:all 0.5s;
+}
+.gawds_link:hover{
+    color:turquoise;
+}
+.footer_social{
+    width:180px;
+    display: flex;
+    justify-content: space-between;
+}
+.social_link>svg{
+    width:35px;
+    height:35px;
+    transition:all 0.5s;
+    fill:rgba(63, 209, 194, 0.4);
+}
+.social_link:hover>svg{
+    fill:turquoise;
+
+}

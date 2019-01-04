@@ -1,0 +1,21 @@
+.specific_header{
+    flex:0 0 80px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    font-weight: 400;
+    position: relative;
+    background-color:#24305E;
+    border-top-right-radius: -100px;
+    z-index: 100;
+    text-transform: uppercase;
+    color:#F8E9E1;
+}
+@media only screen and (max-width:450px){
+    .specific_header{
+        flex-basis:60px;
+    }
+}

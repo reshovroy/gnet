@@ -1,0 +1,7 @@
+.batch_list{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 20;
+}
