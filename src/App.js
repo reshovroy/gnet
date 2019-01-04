@@ -44,7 +44,7 @@ class App extends Component {
 
   componentDidMount(){
 
-    fetch(window.location.origin + '/mock_data.json').then((data)=>data.json())
+    fetch(window.location.href + '/mock_data.json').then((data)=>data.json())
     .then((data)=>{
       this.setState({member_data:data.members});
       let year_member={};

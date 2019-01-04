@@ -43,7 +43,7 @@ class Header extends Component{
             <header className="head_banner">
                 <span className="head_banner_logo">
                     <svg>
-                        <use xlinkHref={window.location.origin + "/img/logo.svg#logo"}></use>
+                        <use xlinkHref={window.location.href + "/img/logo.svg#logo"}></use>
                     </svg>
                 </span>
                 <div className="head_search">

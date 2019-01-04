@@ -13,17 +13,17 @@ class Footer extends Component {
                     <div className="footer_social">
                         <a href="#" className="social_link github_link">
                             <svg>
-                                <use xlinkHref={window.location.origin + '/img/github.svg#github'}></use>
+                                <use xlinkHref={window.location.href + '/img/github.svg#github'}></use>
                             </svg>
                         </a>
                         <a href="#" className="social_link facebook_link">
                             <svg>
-                                <use xlinkHref={window.location.origin + '/img/facebook.svg#facebook'}></use>
+                                <use xlinkHref={window.location.href + '/img/facebook.svg#facebook'}></use>
                             </svg>
                         </a>
                         <a href="#" className="social_link instagram_link">
                             <svg>
-                                <use xlinkHref={window.location.origin + '/img/instagram.svg#instagram'}></use>
+                                <use xlinkHref={window.location.href + '/img/instagram.svg#instagram'}></use>
                             </svg>
                         </a>
                     </div>

@@ -25,7 +25,7 @@ class Member_card extends Component{
                         <div className="profile_info_box">
                             <div className="profile_info">
                                 <div className="profile_img_box">
-                                    <img alt="user_pic" src={window.location.origin + '/img/user-5.jpg'} className="profile_img"/>
+                                    <img alt="user_pic" src={window.location.href + '/img/user-5.jpg'} className="profile_img"/>
                                 </div>
                                 <div className="profile_name">{this.props.profile.name}</div>
                                 <div className="profile_email">{this.props.profile.email}</div>
